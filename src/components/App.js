@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/App.scss';
+
 import Form from '../components/Form'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <Form/>
     </div>
     )
-}
+  }
 
 
 export default App;
