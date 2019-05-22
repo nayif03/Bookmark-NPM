@@ -33,3 +33,51 @@
     transform: rotate(360deg);
   }
 }
+.fa-plus-circle{
+  font-size: 9em;
+  margin: 2em;
+}
+.addForm{
+  display: flex;
+  justify-content: center;
+  form{
+    width: 50%;
+    .form-controls{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  
+        input{
+          border-radius: 10px;
+          outline: none;
+          border: 1px solid rgba(128, 128, 128, 0.541);
+          padding: 1em;
+        }
+        .label{
+          text-align: left;
+          flex: 1;
+          background: #0942ad88;
+          color: white;
+          padding: 0.1em;
+          margin-bottom: 1em;
+          margin-top: 4em;
+          border-radius: 10px;
+          font-family: 'Roboto', sans-serif;
+        }
+        
+    }
+    button{
+      border-radius: 10px;
+      margin: 4em;
+      padding: 1em 4em;
+      color: white;
+      background: linear-gradient(rgba(6, 90, 10, 0.589),rgba(23, 114, 12, 0.753));
+      font-weight: 700;
+    }
+    button:hover{
+      background: linear-gradient(rgba(162, 189, 41, 0.589),rgba(218, 55, 44, 0.753))
+    }
+  }
+  
+ 
+}
