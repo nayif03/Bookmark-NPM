@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from '../styles/logo.svg';
 import '../styles/App.scss';
+<<<<<<< HEAD
+
+=======
 import Form from "./Form";
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <React.Fragment>
       
     </React.Fragment>
+>>>>>>> 9f4d94260368f46423138113e7806bc891d6c78d
   );
 }
 
