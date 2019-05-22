@@ -1,16 +1,15 @@
 import React from 'react';
 import '../styles/App.scss';
-<<<<<<< HEAD
 
-=======
 import Form from "./Form";
+import List from "./List";
 
 function App() {
   return (
     <React.Fragment>
-      
+      <Form />
+      <List />
     </React.Fragment>
->>>>>>> 9f4d94260368f46423138113e7806bc891d6c78d
   );
 }
 
