@@ -26,7 +26,7 @@ export default class List extends Component {
       headers: {
         "Content-Type": "application/json",
         token:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWNlNGZlZDVmNzdiNWQxOWIxYWM1MTJjIiwiaWF0IjoxNTU4NTI4ODUzLCJleHAiOjE1NTg1MzI0NTN9.KnfWmzCkhYIfCHoCTIFFuQ5UxOKREAXIqTNbVSaYiHU"
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWNlMjk3NjM1YTkxNDYzNjE3ODEzZmQ3IiwiaWF0IjoxNTU4NTMzNTA2LCJleHAiOjE1NTg1MzcxMDZ9.N31uqXGrc1yvNh96WefuoV9hvrPxgkEIQ7-iUlC_Fyw"
       }
     })
       .then(res => res.json())
