@@ -1,16 +1,18 @@
 import React from 'react';
 import '../styles/App.scss';
-import List from "./List"
+<<<<<<< HEAD
+
+=======
+import Form from "./Form";
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       
-      <List></List>
-        
-    
-    </div>
+    </React.Fragment>
+>>>>>>> 9f4d94260368f46423138113e7806bc891d6c78d
   );
 }
 
 export default App;
+
