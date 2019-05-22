@@ -1,0 +1,23 @@
+form {
+    margin: 100px auto;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    input {
+        display: block;
+        width: 100%;
+    }
+
+    button {
+        background-color: yellow;
+        border: 0;
+        margin-top: 25px;
+        flex: 0 0 48%
+    }
+}

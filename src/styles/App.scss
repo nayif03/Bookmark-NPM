@@ -1,4 +1,6 @@
-@import "./Variables.scss";
+@import "./partials/variables";
+@import "./partials/form";
+
 
 .App {
   text-align: center;
@@ -81,3 +83,4 @@
   
  
 }
+
