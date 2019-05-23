@@ -110,7 +110,7 @@ class Btns extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="login-form">
                 <FormUser onChangeUsername={(e)=> this.handleChangeUsername(e)} onChangePassword={(e)=> this.handleChangePassword(e)} username={this.state.username} password={this.state.password} />
                 <Link to="/api/bookmarks" >
                     <button type="submit" id="login" onClick={(e)=>{this.login(e)}} >Login</button>
@@ -122,7 +122,7 @@ class Btns extends React.Component {
 
 
 
-            </>
+            </div>
         )
     }
 }
