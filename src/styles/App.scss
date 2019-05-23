@@ -1,6 +1,10 @@
 @import "./partials/variables";
 @import "./partials/form";
 
+body {
+  background-image: url('bg.png');
+  background-size: cover
+}
 
 .App {
   text-align: center;
